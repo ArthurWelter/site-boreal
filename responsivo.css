@@ -1,0 +1,127 @@
+@media (max-width: 1000px){
+    .formulario{
+        display: flex;
+        flex-direction: column;
+    }
+    .textos-contato{
+        line-height: 45px;
+    }
+    .textos-contato hr{
+        margin-top: 10px;
+    }
+    .contato{
+        padding: 0;
+    }
+
+}
+@media (max-width: 550px){
+    header{
+        display: none;
+    }
+    .texto-obra{
+        text-align: center;
+    }
+    .cliente.n1{
+        margin-bottom: 0px;
+    }
+    .cliente.n3{
+        margin-bottom: 0;
+    }
+    .prova{
+        padding: 50px;
+    }
+    .prova .texto-clientes .subtitulo-clientes{
+        line-height: 20px;
+        font-size: 18px;
+        text-align: center;
+        width: 300px;
+     }
+     .prova .texto-clientes .titulo-clientes, .info h2, .diferenciais h2{
+        line-height: 44px;
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 31px;
+     }
+     .container-clientes{
+     
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+     }
+     .cliente{
+        max-width: 320px;
+     }
+    .textos-contato h1{
+        font-size: 37px;
+    }
+    .mensagem-cliente, .botao-enviar button, .info-cliente{
+        width: 250px;
+    }
+    .container-start, .container-caracteristicas, .localizacao{
+        flex-direction: column;
+        justify-content: center;
+    }
+    iframe{
+        width: 100%;
+    }
+    .info, .diferenciais, .empreendimentos, .localizacao, .start-obras{
+        padding: 30px ;
+    }
+    .localizacao{
+        gap: 5rem;
+    }
+    .botao-empre button{
+        color: white;
+        background-color: var(--azulescuro);
+    }
+    .parte-esquerda, .parte-direita{
+        padding: 30px;
+        height: fit-content;
+        width: 100%;
+    
+    }
+    .container-start img{
+        width: 250px;
+    }
+    .parte-direita{
+        padding: 30px 30px 30px 50px;
+    }
+    .container-caracteristicas{
+        width: 100%;
+        
+    }
+    .row{
+        flex-direction: column;
+    }
+    .cor1{
+        display: none;
+    }
+    .loc-info-estágio {
+        padding: 0 12px 0 12px !important;
+        font-size: 10px;
+    }
+    .loc-info-estágio i{
+        font-size: 20px;
+    }
+    .container-start{
+        gap: 5rem;
+    }
+    .titulo-start{
+        line-height: 2.5rem;
+        text-align: center;
+    }
+    .container-info-start{
+        gap: 10px;
+    }
+    .typed-cursor{
+        display: none;
+    }
+}
+@media (min-width: 1400px){
+    .mensagem-cliente, .botao-enviar button, .info-cliente{
+        width: 500px;
+    }
+    .call-to-action i{
+        font-size: 75px;
+    }
+}

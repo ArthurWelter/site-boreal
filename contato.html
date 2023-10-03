@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsivo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <style>
+        .navigation{
+            display: flex;
+            justify-content: space-between;
+            border-bottom: none;
+            box-shadow: 0 0.1rem  15px rgba(0, 0, 0, 0.062);
+            padding: 20px 40px;
+        }
+    </style>
+    
+    <header>
+        <nav class="navigation">
+            
+            <a href="index.html"><img src="imagens/output.png" alt="Logo Boreal"></a>
+            
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="menu-simples">Home</a></li>
+                    <li><a href="#" class="menu-simples">Obras</a></li>
+                    <li><a href="#" class="menu-simples">Quem somos</a></li>
+                    <!-- <li><a href="contato.html"><button>Contato</button></a></li> -->
+                    
+                </ul>
+            
+        </nav>
+    </header> 
+    <img src="imagens/bg-pattern-top-desktop.svg" alt="" class="imagem-fundo">
+
+    <aside class="call-to-action">
+        <a href="https://web.whatsapp.com/send?phone=554991108550&text=Ol%C3%A1%20tudo%20bem?%20Estava%20navegando%20pelo%20site%20da%20Boreal%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es." target="_blank"><i class='bx bxl-whatsapp'></i></a>
+        
+    </aside>
+
+    <section class="contato" >
+        <div class="textos-contato">
+            <h1  data-aos="fade-up">Entre em contato</h1>
+            <hr data-aos="fade-up" data-aos-delay="100">
+        </div>
+
+        <div class="container-formulario" data-aos="fade-right" data-aos-delay="300">
+                <form action="https://api.staticforms.xyz/submit" method="post" class="formulario">
+
+                    <div class="info-cliente">
+                        <label>Nome:</label>
+                        <input type="text" name="name" placeholder="Digite seu nome" autocomplete="none" required>
+                        <label>Email:</label>
+                        <input type="email" name="email" placeholder="Digite seu email" required>
+                        <label>Número:</label>
+                        <input type="text" name="phone" placeholder="Digite seu número de telefone" autocomplete="none" required>
+                    </div>
+
+                    <div class="mensagem-cliente">
+                        <label>Mensagem:</label>
+                        <textarea style="resize: none" name="message"  placeholder="Digite sua mensagem" autocomplete="none" required></textarea>
+
+                        <div class="botao-enviar">
+                            <button type="submit">ENVIAR MENSAGEM</button>
+                        </div>
+                    </div>
+
+                    
+
+                    <input type="hidden" name="accessKey" value="f89d941d-576b-4618-9269-588cd6b61781" autocomplete="none">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/exercicios/exercicios%20extras/site%20simples%20boreal/obrigado.html" >
+                </form>
+                
+        </div>
+        
+    </section>
+    
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1500,
+        });
+    </script>
+</body>
+</html>
